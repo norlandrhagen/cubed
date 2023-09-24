@@ -25,6 +25,7 @@ from .core.array import (
 from .core.gufunc import apply_gufunc
 from .core.ops import from_array, from_zarr, map_blocks, store, to_zarr
 from .nan_functions import nanmean, nansum
+from .overlap import map_overlap
 
 __all__ = [
     "__version__",
@@ -37,6 +38,7 @@ __all__ = [
     "from_array",
     "from_zarr",
     "map_blocks",
+    "map_overlap",
     "measure_reserved_mem",
     "measure_reserved_memory",
     "nanmean",
